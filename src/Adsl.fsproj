@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Adsl</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+        <IsTestProject>false</IsTestProject>
+        <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+        <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Tables.fs" />
+    <Compile Include="Types.fs" />
+    <Compile Include="Diagram.fs" />
+    <Compile Include="Adsl.fs" />
+    <Compile Include="Program.fs" />
+    <Compile Include="Liveness.fs" />
+    <Compile Include="SSASA.fs" />
+    <Compile Include="AdslAutodiff.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" Version="5.0.1" />
+  </ItemGroup>
+</Project>
