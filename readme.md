@@ -1,4 +1,5 @@
-**NOTE:** this library is not maintained and is shared to support this paper. 
+**NOTE:** this library is not maintained and is shared to support this paper:
+https://ceur-ws.org/Vol-2971/paper07.pdf 
 
 This repository contains a F\# implementation of ADSL.
 
@@ -9,4 +10,3 @@ ADSL is closed by differentiation: the adjoint, i.e. the derived program, of an 
 ADSL is at the core of differentiable programming at Lokad.
 
 
-paper : 
